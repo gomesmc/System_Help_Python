@@ -1,36 +1,36 @@
-## Sistema de Ajuda: Help Python
+# System Help 🖥️
 
-Este é um aplicativo simples em Python que fornece ajuda interativa para funções e bibliotecas do Python usando o comando `help()`. 
-O aplicativo apresenta um sistema de ajuda com formatação colorida para tornar a experiência do usuário mais agradável.
+A Python CLI tool that provides interactive documentation for functions and libraries using the built-in `help()` command. Outputs color-coded, structured text for an improved terminal experience.
 
-## Funcionalidades
+## Features
 
-- Exibe um título formatado com cores.
-- Solicita ao usuário o nome de uma função ou biblioteca.
-- Exibe a documentação da função ou biblioteca solicitada usando o comando `help()`.
-- Continua a solicitar entradas até que o usuário digite "FIM".
-- Apresenta a saída de forma colorida e organizada.
+- Prompts the user for a function or library name
+- Displays full documentation via `help()`
+- Color-coded and structured terminal output
+- Loops until the user types `FIM` to exit
 
-## Pré-requisitos
+## Requirements
 
 - Python 3.x
 
-## Instalação
+## Setup
 
-1. Clone o repositório para sua máquina local:
-    ```sh
-    git clone https://github.com/SEU_USUARIO/sistema-de-ajuda-python.git
-    cd sistema-de-ajuda-python
-    ```
+1. Clone the repository:
+```bash
+git clone https://github.com/gomesmc/System_Help_Python.git
+cd System_Help_Python
+```
 
-2. (Opcional) Crie um ambiente virtual para isolar as dependências:
-    ```sh
-    python -m venv venv
-    source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
-    ```
+2. (Optional) Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+```
 
-## Uso
+## Usage
 
-Execute o script:
-```sh
+```bash
 python helpPython.py
+```
+
+Enter any Python function or library name to view its documentation. Type `FIM` to exit.
