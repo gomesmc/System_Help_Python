@@ -34,3 +34,4 @@ python helpPython.py
 ```
 
 Enter any Python function or library name to view its documentation. Type `FIM` to exit.
+FIM is the exit keyword defined in the source code.
