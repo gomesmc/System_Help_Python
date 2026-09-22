@@ -1,4 +1,4 @@
-# System Help 🖥️
+# System Help 
 
 A Python CLI tool that provides interactive documentation for functions and libraries using the built-in `help()` command. Outputs color-coded, structured text for an improved terminal experience.
 
